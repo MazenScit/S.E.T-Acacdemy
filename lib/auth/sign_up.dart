@@ -452,34 +452,34 @@ class _sgin_upState extends State<sgin_up> {
                                 backgroundColor: Colors.red,
                               ));
                             } else {
-                              Navigator.push(context, MaterialPageRoute(
-                                  builder: (BuildContext context) {
-                                return send_code_page(
-                                  phone: phoneController.text.toString(),
-                                  addressController:
-                                      addressController.text.toString(),
-                                  deviceToken: deviceToken.toString(),
-                                  emailController:
-                                      emailController.text.toString(),
-                                  fnameController:
-                                      fnameController.text.toString(),
-                                  governorate: governorate.toString(),
-                                  graduated: graduated.toString(),
-                                  lnameController:
-                                      lnameController.text.toString(),
-                                  mnameController:
-                                      mnameController.text.toString(),
-                                  passwordController:
-                                      passwordConfController.text.toString(),
-                                  phoneController:
-                                      phoneController.text.toString(),
-                                  specialization: specialization.toString(),
-                                  universitie: universitie.toString(),
-                                  year: year.toString(),
-                                );
-                              }));
-                              _user_control.send_code(
-                                  phoneController.text.toString(), context);
+                              // Navigator.push(context, MaterialPageRoute(
+                              //     builder: (BuildContext context) {
+                              //   return send_code_page(
+                              //     phone: phoneController.text.toString(),
+                              //     addressController:
+                              //         addressController.text.toString(),
+                              //     deviceToken: deviceToken.toString(),
+                              //     emailController:
+                              //         emailController.text.toString(),
+                              //     fnameController:
+                              //         fnameController.text.toString(),
+                              //     governorate: governorate.toString(),
+                              //     graduated: graduated.toString(),
+                              //     lnameController:
+                              //         lnameController.text.toString(),
+                              //     mnameController:
+                              //         mnameController.text.toString(),
+                              //     passwordController:
+                              //         passwordConfController.text.toString(),
+                              //     phoneController:
+                              //         phoneController.text.toString(),
+                              //     specialization: specialization.toString(),
+                              //     universitie: universitie.toString(),
+                              //     year: year.toString(),
+                              //   );
+                              // }));
+                              // _user_control.send_code(
+                              //     phoneController.text.toString(), context);
                               //   print(universitie);
                               //   print(specialization);
                               //   print(governorate);
@@ -494,21 +494,21 @@ class _sgin_upState extends State<sgin_up> {
                               //   print(addressController.text);
                               //   print(graduated);
                               //   print(deviceToken);
-                              // _user_control.register(
-                              //     fnameController.text.toString(),
-                              //     mnameController.text.toString(),
-                              //     lnameController.text.toString(),
-                              //     phoneController.text.toString(),
-                              //     passwordController.text.toString(),
-                              //     emailController.text.toString(),
-                              //     governorate.toString(),
-                              //     addressController.text.toString(),
-                              //     specialization.toString(),
-                              //     universitie.toString(),
-                              //     graduated.toString(),
-                              //     year.toString(),
-                              //     deviceToken.toString(),
-                              //     context);
+                              _user_control.register(
+                                  fnameController.text.toString(),
+                                  mnameController.text.toString(),
+                                  lnameController.text.toString(),
+                                  phoneController.text.toString(),
+                                  passwordController.text.toString(),
+                                  emailController.text.toString(),
+                                  "2",
+                                  addressController.text.toString(),
+                                  specialization.toString(),
+                                  "2",
+                                  graduated.toString(),
+                                  year.toString(),
+                                  deviceToken.toString(),
+                                  context);
                             }
                           },
                           child: Text(

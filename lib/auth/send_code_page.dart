@@ -56,19 +56,19 @@ class send_code_page extends StatefulWidget {
   State<send_code_page> createState() => _send_code_pageState();
 }
 
-String mycode = "";
-UaeController _myUaeController=UaeController();
+// String mycode = "";
+// UaeController _myUaeController=UaeController();
 
 
 class _send_code_pageState extends State<send_code_page> {
-  get_pass(){
-     sendmessage(widget.phoneController).then((value){
-          mycode=value;
-     });
-}
+//   get_pass(){
+//      sendmessage(widget.phoneController).then((value){
+//           mycode=value;
+//      });
+// }
   @override
   void initState() {
-    get_pass();
+    // get_pass();
     // TODO: implement initState
     super.initState();
   }
@@ -220,9 +220,9 @@ class _send_code_pageState extends State<send_code_page> {
                               print("Changed: " + pin);
                             },
                             onCompleted: (pin) {
-                              print(mycode);
+                              // print(mycode);
                               print(pin);
-                              if (mycode == pin) {
+                              // if (mycode == pin) {
                                 _user_control.register(
                                     widget.fnameController,
                                     widget.mnameController,
@@ -238,15 +238,15 @@ class _send_code_pageState extends State<send_code_page> {
                                     widget.year,
                                     widget.deviceToken,
                                     context);
-                              } else {
-                                AwesomeDialog(
-                                  context: context,
-                                  dialogType: DialogType.warning,
-                                  animType: AnimType.bottomSlide,
-                                  title: 'The code is incorrect'.tr,
-                                  // btnOkOnPress: () {},
-                                ).show();
-                              }
+                              // } else {
+                              //   AwesomeDialog(
+                              //     context: context,
+                              //     dialogType: DialogType.warning,
+                              //     animType: AnimType.bottomSlide,
+                              //     title: 'The code is incorrect'.tr,
+                              //     // btnOkOnPress: () {},
+                              //   ).show();
+                              // }
                             }),
 
                         // ElevatedButton(

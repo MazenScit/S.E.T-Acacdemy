@@ -7,6 +7,7 @@ import 'package:setacademyapp/controls/get_control.dart';
 import 'package:setacademyapp/controls/image_profile/image_profile.dart';
 import 'package:setacademyapp/model/User_model.dart';
 import '../Utils/Color.dart';
+import '../Utils/general_URL.dart';
 import '../controls/user_control.dart';
 import '../model/governorates.dart';
 import '../model/specializations.dart';
@@ -205,6 +206,7 @@ class _ProfileState extends State<Profile> {
                         SizedBox(
                           height: hi / 70,
                         ),
+                        apiacceptencevariable.toString()!="0"?
                         Column(
                           children: [
                             Container(
@@ -251,7 +253,7 @@ class _ProfileState extends State<Profile> {
                               ),
                             ),
                           ],
-                        ),
+                        ):SizedBox(),
                         SizedBox(
                           height: hi / 70,
                         ),
@@ -310,6 +312,7 @@ class _ProfileState extends State<Profile> {
                         SizedBox(
                           height: hi / 70,
                         ),
+                        apiacceptencevariable.toString()!="0"?
                         Column(
                           children: [
                             Container(
@@ -356,7 +359,7 @@ class _ProfileState extends State<Profile> {
                               ),
                             ),
                           ],
-                        ),
+                        ):SizedBox(),
                         SizedBox(
                           height: hi / 70,
                         ),
