@@ -1,0 +1,50 @@
+workflows:
+    sample-workflow:
+        environment:
+            flutter: stable
+
+workflows:
+  ios-workflow:
+    name: iOS Workflow 
+    integrations:
+      app_store_connect: set
+
+    environment:
+      vars:
+        APP_STORE_APPLE_ID: 1771
+      ios_signing:
+        distribution_type: app_store # or: ad_hoc | development | enterprise
+        bundle_identifier: com.example.setacademyapp
+  scripts:
+    - name: Set up code signing settings on Xcode project
+      script: | 
+        xcode-project use-profiles
+    - name: Get Flutter packages
+      script: | 
+        flutter packages pub get
+    - name: Install pods
+      script: | 
+        find . -name "Podfile" -execdir pod install \;
+    - name: Flutter build ipa
+      script: | 
+        flutter build ipa --release \
+          --build-name=1.0.0 \
+          --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+publishing:
+  app_store_connect: B87A5KUV28
+  submit_to_testflight: true
+  expire_build_submitted_for_review: true
+  submit_to_app_store: true
+  cancel_previous_submissions: true
+  release_type: SCHEDULED
+  copyright: @scit
+  email:
+    recipients:
+      - D.mazen@scit.co
+    notify:
+      success: false # To not receive a notification when a build succeeds
+      failure: false # To not receive a notification when a build fails

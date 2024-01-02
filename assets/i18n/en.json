@@ -1,0 +1,296 @@
+{
+  "AUTH": {
+    "LOGIN": {
+      "TITLE": "SIGN IN",
+      "BUTTON": "Login",
+      "NOT_ACCOUNT": "Don't have an account ?",
+      "CONTINUE_AS":"Continue as",
+      "A_GUEST":"a Guest",
+      "PHONE": {
+        "PLACE_HOLDER": "Phone",
+        "REQUIRED": "The phone is required",
+        "MAX_LENGTH": "The Phone must be a max length 10 numbers",
+        "MIN_LENGTH": "The Phone must be a min length 10 numbers"
+      },
+      "PASSWORD": {
+        "PLACE_HOLDER": "Password",
+        "REQUIRED": "The password is required",
+        "MIN_LENGTH": "The password must be a min length 8 numbers"
+      },
+      "ALERT":{
+        "ERROR":"Sorry, it is not possible to log in from this device",
+        "BUTTON":"Cancel",
+        "BUTTON_CONTINUE":"Make a complaint",
+        "BUTTON_COMPLAINT":"Send Complaint",
+        "ALERT1":"Your request will be processed by the administration.",
+        "ALERT2":"All other devices will be logged out.",
+        "PLACE_HOLDER": "Write the cause of the problem (EX: new device - delete data - reinstall the application ....)"
+      }
+    },
+    "REGISTER": {
+      "TITLE": "Sign Up",
+      "CREATE_ACCOUNT": "Create an Account",
+      "BUTTON": "Sign Up",
+      "IS_ACCOUNT": "Already have an account ? ",
+      "FIRST_NAME": {
+        "PLACE_HOLDER": "First Name",
+        "REQUIRED": "The First Name is required."
+      },
+      "MIDDLE_NAME": {
+        "PLACE_HOLDER": "Middle Name",
+        "REQUIRED": "The Middle Name is required."
+      },
+      "LAST_NAME": {
+        "PLACE_HOLDER": "Last Name",
+        "REQUIRED": "The Last Name is required."
+      },
+      "PHONE": {
+        "PLACE_HOLDER": "Phone",
+        "REQUIRED": "The phone is required",
+        "MAX_LENGTH": "The Phone must be a max length 10 numbers",
+        "MIN_LENGTH": "The Phone must be a min length 10 numbers"
+      },
+      "PASSWORD": {
+        "PLACE_HOLDER": "Password",
+        "REQUIRED": "The password is required",
+        "MIN_LENGTH": "The password must be a min length 8 numbers"
+      },
+      "PASSWORD_CONFIRMATION": {
+        "PLACE_HOLDER": "Password confirmation",
+        "REQUIRED": "The password confirmation is required.",
+        "MIN_LENGTH": "The password confirmation must be a min length 8 numbers.",
+        "MUST_MATCH": "The password confirmation does not match ."
+      },
+      "EMAIL": {
+        "PLACE_HOLDER": "Email"
+      },
+      "GOVERNORATE": {
+        "PLACE_HOLDER": "Governorate",
+        "REQUIRED": "The Governorate is required."
+      },
+      "ADDRESS": {
+        "PLACE_HOLDER": "Address"
+      },
+      "SPECIALIZATION": {
+        "PLACE_HOLDER": "Specialization",
+        "REQUIRED": "The Specialization is required."
+      },
+      "UNIVERSITY": {
+        "PLACE_HOLDER": "University",
+        "REQUIRED": "The University is required."
+      },
+      "GRADUATED": {
+        "PLACE_HOLDER": "Are you graduated ?",
+        "YES": "YES",
+        "NO": "NO",
+        "REQUIRED": "The Graduated is required."
+      },
+      "YEAR": {
+        "PLACE_HOLDER": "Year",
+        "REQUIRED": "The Year is required.",
+        "MAX": "year must be a max 6 .",
+        "MIN": "year must be a min 1 ."
+      }
+    }
+  },
+  "PROFILE": {
+    "TITLE": "Profile",
+    "GRADUATED": "Graduated",
+    "STUDENT": "Student",
+    "FIRST_YEAR": "First Year",
+    "SECOND_YEAR": "Second Year",
+    "THIRD_YEAR": "Third Year",
+    "FOURTH_YEAR": "Fourth Year",
+    "FIFTH_YEAR": "Fifth Year",
+    "SIXTH_YEAR": "Sixth Year",
+    "EDIT": "Edit Profile",
+    "RESET_PASSWORD" : "Change Password",
+    "DELETE_MY_ACCOUNT" : "Delete my account",
+    "ALERT_DELETE_ACCOUNT1" : "Are you sure you want to delete your account ?",
+    "ALERT_DELETE_ACCOUNT2" : "All your courses, files and personal data on the application and from the S.E.T Training system will be removed ."
+
+  },
+  "EDIT_PROFILE": {
+    "TITLE": "Edit Profile",
+    "BUTTON": "Save"
+  },
+  "COURSES": {
+    "TITLE": "Explore Courses",
+    "EMPTY":"There are no courses to watch",
+    "MY_COURSES": {
+      "TITLE": "My Courses",
+      "EMPTY": "You don't have any courses"
+    }
+  },
+  "COURSE_DETAILS": {
+    "CHAPTERS": "Chapters",
+    "HOURS": "Hours",
+    "TEACHERS": "Teachers",
+    "REVIEWS": "Reviews",
+    "COMMENTS": "Comments",
+    "FREE_LESSONS": "Free Lesson",
+    "COURSE_REQUEST": "Course request",
+    "COURSE_REQUEST_ADMIN": "Your request will be processed by the administration",
+    "COURSE_REQUEST_REJECTION": "Your request has been rejected by the administration",
+    "DETAILS": "Details",
+    "JOIN_US": "Join Us",
+    "COMMENTS_ION_FOOTER": {
+      "WRITE_REPLAY": "Write a Replay",
+      "WRITE_COMMENT": "Write a Comment",
+      "EDIT_COMMENT": "Edit a Comment",
+      "ALERT":{
+        "CONFIRM_CLOSE":"Do you really want to cancel your order for the course ?"
+      },
+      "BUTTON":{
+        "BUTTON_CLOSE":"Exit",
+        "BUTTON_CONFIRM":"Confirm"
+      }
+    },
+    "REPLAY":"Replay",
+    "UPDATE":"Update",
+    "DELETE":"Delete",
+    "EMPTY_TEACHERS":"There are no Teachers to watch",
+    "EMPTY_CHAPTERS":"There are no Chapters to watch",
+    "EMPTY_COMMENTS":"There are no Comments to watch"
+  },
+  "CURRENCY": {
+    "SP": "S.P"
+  },
+  "CHAPTERS_DETAILS": {
+    "LESSONS": "Lessons",
+    "FILES": "Files",
+    "QUIZZES": "Quizzes",
+    "MIN": "Min",
+    "FREE": "Free",
+    "DURATION": "Duration",
+    "EMPTY_LESSONS": "There are no lessons to watch",
+    "EMPTY_FILES": "There are no files to watch",
+    "EMPTY_QUIZZES": "There are no quizzes to watch"
+  },
+  "WELCOME": {
+    "SKIP": "Skip",
+    "GET_STARTED": "Login",
+    "SET1": {
+      "TITLE1": "Success Education Training",
+      "TITLE2": "a multi-service center that provides a range of educational and training services in all fields"
+    },
+    "SET2": {
+      "TITLE1": "S.E.T Electronic Platform",
+      "TITLE2": "a platform that simulates reality by offering many online courses under the supervision of professional training cadres"
+    },
+    "SET3": {
+      "TITLE1": "Multiple Fields",
+      "TITLE2": "The platform includes many training courses in the fields of engineering, medical, languages, and many others"
+    }
+  },
+  "ANALYSIS_REPORT": {
+    "TITLE": "Analysis Report",
+    "CORRECT": "Correct",
+    "WRONG": "Wrong",
+    "BLANK": "Blank",
+    "TOTAL_TIME": "Total Time",
+    "DURATION": "Duration",
+    "MY_RESULTS": "My Result"
+  },
+  "NOTES": {
+    "TITLE": "Notes",
+    "ADD": "Add",
+    "CREATE_NOTES": {
+      "TITLE": "Add New Note",
+      "BUTTON": "Add Note"
+    }
+  },
+  "COMPLAINTS":{
+    "TITLE":"Complaints",
+    "OPEN":"Opened",
+    "CLOSE":"Closed",
+    "ADD":"Add",
+    "WRITE_COMPLAINTS":"Write Complaint ....",
+    "PLACEHOLDER_REPLY":"Write your complaint response ......",
+    "CREATE_COMPLAINTS":{
+      "TITLE":"Add New Complaint",
+      "BUTTON":"Add Complaint"
+    }
+  },
+  "QUIZZES":{
+    "ALERT":{
+      "TITLE":"Warning: When you press the Start Quiz button, the quiz will start only once, so that you cannot enter the quiz again",
+      "BUTTON":"Start Quiz"
+    }
+  },
+  "LOGOUT": "Log out",
+  "lOGIN": "Log in",
+  "HOME":{
+    "COURSE_CATEGORIES": "Courses Categories",
+    "IMPORTANT_VIDEOS":"Intro videos"
+  },
+  "UPDATE" : {
+  "TEXT":"A new app update is available",
+  "BUTTON_UPDATE" : "Update",
+  "BUTTON_CONTINUE" : "Continue",
+  "BUTTON_CANCEL" : "Cancel"
+},
+  "REQUEST" :{
+    "REGISTER":{
+      "PLACE_HOLDER" : "Watching Type :" ,
+      "OPTION1": "Free" ,
+      "OPTION2": "Restricted"
+    },
+    "INPUT_TYPE" : "An image or PDF of the payment receipt",
+    "ATTACHMENT_REQUIRED" : "Attachment is required.",
+    "UPLOAD" : "Send Request",
+    "UPDATE" : "Update",
+    "NUMBER_OF_DAY":"Number of weekly sessions",
+    "DATE_TIME":"Session time",
+    "SESSION1": "First Session",
+    "SESSION2": "Second Session",
+    "SESSION3": "Third Session",
+    "DAY" :{
+      "PLACE_HOLDER" : "Day",
+      "DAY1" : "Sunday",
+      "DAY2" : "Monday",
+      "DAY3" : "Tuesday",
+      "DAY4" : "Wednesday",
+      "DAY5" : "Thursday",
+      "DAY6" : "Friday",
+      "DAY7" : "Saturday"
+    },
+      "TIME" :{
+      "PLACE_HOLDER" : "Session time"
+    },
+    "FREE":"In this type, you can watch the sessions at any time",
+    "RESTRICTED":"In this type, you are committed to attending the sessions on specific dates that you specify in advance",
+    "CANCEL": "Cancel",
+    "FREE_TITLE":"Free",
+    "RESTRICTED_TITLE":"Restricted",
+    "COURSE_REQUEST_DETAILS": "Course Request Details"
+  },
+  "PUBLIC":{
+    "PENDING": "Pending",
+    "REJECTED": "Rejected",
+    "ACCEPTED": "Accepted",
+    "REJECTED_CAUSE" : "Rejected Cause :"
+  },
+  "MY_COURSE_DETAILS":{
+    "COURSE_REQUEST":"Approval of the course"
+  },
+    "REVIEWS":{
+    "PLACE_HOLDER":"Say something about our services..."
+  },
+  "SCHEDULE":{
+    "TITLE":"My Schedule",
+    "DAY": " Day"
+  },
+   "NOTIFICATION":{
+    "TITLE":"Notification"
+  },
+  "ABOUT": {
+    "TITLE": "About",
+    "TITLE1": "Success Education Training",
+    "DESCRIPTION1": "a multi-service center that provides a range of educational and training services in all fields",
+    "TITLE2": "S.E.T Electronic Platform",
+    "DESCRIPTION2": "a platform that simulates reality by offering many online courses under the supervision of professional training cadres",
+    "TITLE3": "Multiple Fields",
+    "DESCRIPTION3": "The platform includes many training courses in the fields of engineering, medical, languages, and many others"
+    }
+}
