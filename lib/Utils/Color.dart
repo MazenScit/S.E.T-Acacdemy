@@ -1,6 +1,8 @@
-var Colorbutton = 0xff34196b;
-var ColorbuttonLogin = 0xffbbc793;
-var ColorTextField = 0xffdee4ca;
-var ColorbuttonHome = 0xffdee4ca;
-var ColorbgContactUs = 0xffafbe80;
-var ColorbgContactUsTextF = 0xffdee4ca;
+import 'package:flutter/material.dart';
+
+var Colorbutton = Colors.green;
+var ColorbuttonLogin = Colors.red;
+var ColorTextField = Colors.grey[200];
+var ColorbuttonHome = Colors.red;
+var ColorbgContactUs =Colors.red;
+var ColorbgContactUsTextF = Colors.red;

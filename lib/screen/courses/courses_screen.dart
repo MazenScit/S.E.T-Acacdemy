@@ -56,7 +56,7 @@ class _CoursesState extends State<Courses> {
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
                 colors: [
-                  Color(Colorbutton),
+                  Colorbutton,
                   Color(0xFF9573ec),
                 ],
               ),
@@ -105,7 +105,7 @@ class _CoursesState extends State<Courses> {
                     child: isloading
                         ? Center(
                             child: CircularProgressIndicator(
-                            color: Color(Colorbutton),
+                            color: Colorbutton,
                           ))
                         : GridView.builder(
                             itemCount: _categories.length,

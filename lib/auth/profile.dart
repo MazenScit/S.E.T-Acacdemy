@@ -117,7 +117,7 @@ class _ProfileState extends State<Profile> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Color(Colorbutton),
+          backgroundColor: Colorbutton,
           centerTitle: true,
           title: Text('Profile'),
         ),
@@ -125,7 +125,7 @@ class _ProfileState extends State<Profile> {
           child: isLoading
               ? Center(
                   child: CircularProgressIndicator(
-                    color: Color(Colorbutton),
+                    color: Colorbutton,
                   ),
                 )
               : Container(
@@ -169,7 +169,7 @@ class _ProfileState extends State<Profile> {
                                     },
                                     icon: Icon(
                                       Icons.edit,
-                                      color: Color(Colorbutton),
+                                      color: Colorbutton,
                                     )))
                           ],
                         ),
@@ -508,13 +508,13 @@ class _ProfileState extends State<Profile> {
                     borderSide: BorderSide(color: Color(0xff34196b))),
                 focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(8),
-                    borderSide: BorderSide(color: Color(ColorTextField))),
+                    borderSide: BorderSide(color: ColorTextField!)),
                 hintText: Title,
                 hintStyle:
                     TextStyle(color: Color(0xff8c9289), fontFamily: 'Cobe'),
                 label: Text(
                   Title,
-                  style: TextStyle(color: Color(Colorbutton)),
+                  style: TextStyle(color: Colorbutton),
                 )),
           ),
         ),

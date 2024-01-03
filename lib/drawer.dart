@@ -463,7 +463,7 @@ class _Drawer5State extends State<Drawer5> {
                     // side: BorderSide(width: 2.0, color: Colors.black),
                     borderRadius: BorderRadius.circular(8)),
                 minimumSize: const Size(90, 50),
-                primary: Color(Colorbutton)),
+                primary: Colorbutton),
           )
         ],
       ),
@@ -495,7 +495,7 @@ class _Drawer5State extends State<Drawer5> {
                   // side: BorderSide(width: 2.0, color: Colors.black),
                   borderRadius: BorderRadius.circular(8)),
               minimumSize: const Size(190, 50),
-              primary: Color(Colorbutton)),
+              primary: Colorbutton),
         )
       ],
     );

@@ -82,7 +82,7 @@ class _myCoursesState extends State<myCourses> {
         key: _key,
         drawer: Drawer5(),
         body: ColorfulSafeArea(
-          color: Color(Colorbutton),
+          color: Colorbutton,
           child: Container(
             padding: EdgeInsets.symmetric(horizontal: 10),
             decoration: BoxDecoration(
@@ -90,7 +90,7 @@ class _myCoursesState extends State<myCourses> {
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
                 colors: [
-                  Color(Colorbutton),
+                  Colorbutton,
                   Color(0xFF9573ec),
                 ],
               ),
@@ -138,7 +138,7 @@ class _myCoursesState extends State<myCourses> {
                       child: isLoading
                           ? Center(
                               child: CircularProgressIndicator(
-                                  color: Color(Colorbutton)),
+                                  color: Colorbutton),
                             )
                           : List_my_courses.isEmpty
                               ? no_courses()

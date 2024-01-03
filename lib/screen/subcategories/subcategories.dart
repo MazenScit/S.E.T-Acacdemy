@@ -62,7 +62,7 @@ class _subcategoriesState extends State<subcategories> {
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
                 colors: [
-                  Color(Colorbutton),
+                  Colorbutton,
                   Color(0xFF9573ec),
                 ],
               ),
@@ -122,7 +122,7 @@ class _subcategoriesState extends State<subcategories> {
                     child: isloading
                         ? Center(
                             child: CircularProgressIndicator(
-                            color: Color(Colorbutton),
+                            color: Colorbutton,
                           ))
                         : GridView.builder(
                             itemCount: _subcategories.length,

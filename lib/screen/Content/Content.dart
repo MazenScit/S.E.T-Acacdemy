@@ -249,7 +249,7 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
-                    color: Color(Colorbutton),
+                    color: Colorbutton,
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 width: double.infinity,
                 height: 35,
@@ -483,8 +483,8 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
                                                                 horizontal: 5),
                                                         child: RadioListTile<
                                                             dynamic>(
-                                                          activeColor: Color(
-                                                              Colorbutton),
+                                                          activeColor: 
+                                                              Colorbutton,
                                                           title: Text(
                                                             _quizzes[0]
                                                                 .questions![
@@ -522,8 +522,8 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
                                                                 horizontal: 5),
                                                         child: RadioListTile<
                                                             dynamic>(
-                                                          activeColor: Color(
-                                                              Colorbutton),
+                                                          activeColor:
+                                                              Colorbutton,
                                                           title: Text(
                                                             _quizzes[0]
                                                                 .questions![
@@ -561,8 +561,8 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
                                                                 horizontal: 5),
                                                         child: RadioListTile<
                                                             dynamic>(
-                                                          activeColor: Color(
-                                                              Colorbutton),
+                                                          activeColor: 
+                                                              Colorbutton,
                                                           title: Text(
                                                             _quizzes[0]
                                                                 .questions![
@@ -600,8 +600,8 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
                                                                 horizontal: 5),
                                                         child: RadioListTile<
                                                             dynamic>(
-                                                          activeColor: Color(
-                                                              Colorbutton),
+                                                          activeColor:
+                                                              Colorbutton,
                                                           title: Text(
                                                             _quizzes[0]
                                                                 .questions![
@@ -687,7 +687,7 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
   Center Circular() {
     return Center(
       child: CircularProgressIndicator(
-        color: Color(Colorbutton),
+        color: Colorbutton,
       ),
     );
   }
@@ -765,7 +765,7 @@ class _ContentState extends State<Content> with SingleTickerProviderStateMixin {
               : isloadingBook == '1'
                   ? _total.toString() == 'null'
                       ? CircularProgressIndicator(
-                          color: Color(Colorbutton),
+                          color: Colorbutton,
                         )
                       : Text(_total.toString())
                   : Icon(

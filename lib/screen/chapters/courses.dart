@@ -61,7 +61,7 @@ class _chaptersState extends State<chapters> {
                 begin: Alignment.centerRight,
                 end: Alignment.centerLeft,
                 colors: [
-                  Color(Colorbutton),
+                  Colorbutton,
                   Color(0xFF9573ec),
                 ],
               ),
@@ -110,7 +110,7 @@ class _chaptersState extends State<chapters> {
                     child: isloading
                         ? Center(
                             child: CircularProgressIndicator(
-                            color: Color(Colorbutton),
+                            color: Colorbutton,
                           ))
                         : Column(
                             children: [

@@ -115,7 +115,7 @@ class _VideoState extends State<Video> {
                         Container(
                           padding: EdgeInsets.symmetric(horizontal: 15),
                           decoration: BoxDecoration(
-                              color: Color(Colorbutton),
+                              color: Colorbutton,
                               borderRadius: BorderRadius.circular(20)),
                           child: Row(
                             children: [
@@ -139,7 +139,7 @@ class _VideoState extends State<Video> {
                         Container(
                           padding: EdgeInsets.symmetric(horizontal: 15),
                           decoration: BoxDecoration(
-                              color: Color(Colorbutton),
+                              color: Colorbutton,
                               borderRadius: BorderRadius.circular(20)),
                           child: Row(
                             children: [
@@ -180,7 +180,7 @@ class _VideoState extends State<Video> {
               )
             : Center(
                 child: CircularProgressIndicator(
-                  color: Color(Colorbutton),
+                  color: Colorbutton,
                 ),
               ),
       ),

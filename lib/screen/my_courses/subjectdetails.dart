@@ -176,7 +176,7 @@ class _SearchState extends State<subjectdetails>
                     ),
                     Icon(
                       Icons.watch_later_outlined,
-                      color: Color(Colorbutton),
+                      color: Colorbutton,
                       size: 15,
                     ),
                   ],
@@ -192,7 +192,7 @@ class _SearchState extends State<subjectdetails>
                     ),
                     Icon(
                       Icons.book_sharp,
-                      color: Color(Colorbutton),
+                      color: Colorbutton,
                       size: 15,
                     ),
                   ],
@@ -207,7 +207,7 @@ class _SearchState extends State<subjectdetails>
               child: Container(
                 padding: EdgeInsets.all(3),
                 decoration: BoxDecoration(
-                    color: Color(Colorbutton),
+                    color: Colorbutton,
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 width: double.infinity,
                 height: 35,
@@ -282,7 +282,7 @@ class _SearchState extends State<subjectdetails>
                                                       BorderRadius.circular(
                                                           50)),
                                               minimumSize: const Size(50, 50),
-                                              primary: Color(Colorbutton))),
+                                              primary: Colorbutton)),
                                     ],
                                   )
                           ],
@@ -319,7 +319,7 @@ class _SearchState extends State<subjectdetails>
                                                         BorderRadius.circular(
                                                             50)),
                                                 minimumSize: const Size(50, 50),
-                                                primary: Color(Colorbutton))),
+                                                primary: Colorbutton)),
                                       ],
                                     ),
                             ],
@@ -355,7 +355,7 @@ class _SearchState extends State<subjectdetails>
                                                       BorderRadius.circular(
                                                           50)),
                                               minimumSize: const Size(50, 50),
-                                              primary: Color(Colorbutton))),
+                                              primary: Colorbutton)),
                                     ],
                                   ),
                           ],
@@ -433,7 +433,7 @@ class _SearchState extends State<subjectdetails>
                                                   children: [
                                                     Radio(
                                                       activeColor:
-                                                          Color(Colorbutton),
+                                                          Colorbutton,
                                                       value: 'Bank',
                                                       groupValue:
                                                           transformation,
@@ -451,7 +451,7 @@ class _SearchState extends State<subjectdetails>
                                                   children: [
                                                     Radio(
                                                       activeColor:
-                                                          Color(Colorbutton),
+                                                          Colorbutton,
                                                       value: 'Coupon',
                                                       groupValue:
                                                           transformation,
@@ -496,8 +496,8 @@ class _SearchState extends State<subjectdetails>
                                                             minimumSize:
                                                                 const Size(
                                                                     250, 50),
-                                                            primary: Color(
-                                                                Colorbutton)))
+                                                            primary: 
+                                                                Colorbutton))
                                                 : Container(
                                                     height: 50,
                                                     margin:
@@ -581,8 +581,8 @@ class _SearchState extends State<subjectdetails>
                                                             minimumSize:
                                                                 const Size(
                                                                     150, 50),
-                                                            primary: Color(
-                                                                Colorbutton)))
+                                                            primary: 
+                                                                Colorbutton))
                                           ],
                                         ),
                                       ));
@@ -637,7 +637,7 @@ class _SearchState extends State<subjectdetails>
                         ],
                       ),
                       decoration: BoxDecoration(
-                          color: Color(Colorbutton),
+                          color: Colorbutton,
                           borderRadius: BorderRadius.all(Radius.circular(10))),
                       height: 50,
                       width: double.infinity,
@@ -693,7 +693,7 @@ class _SearchState extends State<subjectdetails>
                         // side: BorderSide(width: 1.0, color: Colors.black),
                         borderRadius: BorderRadius.circular(50)),
                     minimumSize: const Size(50, 50),
-                    primary: Color(Colorbutton))),
+                    primary: Colorbutton)),
           ],
         )
       ],
@@ -831,7 +831,7 @@ class _SearchState extends State<subjectdetails>
                     // side: BorderSide(width: 2.0, color: Colors.black),
                     borderRadius: BorderRadius.circular(8)),
                 minimumSize: const Size(90, 50),
-                primary: Color(Colorbutton)),
+                primary: Colorbutton),
           )
         ],
       ),
@@ -887,7 +887,7 @@ class _SearchState extends State<subjectdetails>
                     // side: BorderSide(width: 2.0, color: Colors.black),
                     borderRadius: BorderRadius.circular(8)),
                 minimumSize: const Size(90, 50),
-                primary: Color(Colorbutton)),
+                primary: Colorbutton),
           )
         ],
       ),

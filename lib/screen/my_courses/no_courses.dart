@@ -77,7 +77,7 @@ class _no_coursesState extends State<no_courses> {
                       // side: BorderSide(width: 1.0, color: Colors.black),
                       borderRadius: BorderRadius.circular(15)),
                   minimumSize: const Size(250, 50),
-                  primary: Color(Colorbutton))),
+                  primary: Colorbutton)),
         ],
       ),
     );

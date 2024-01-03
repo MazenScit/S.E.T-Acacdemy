@@ -18,6 +18,7 @@ class WalkThroughScreen extends StatefulWidget {
   @override
   WalkThroughScreenState createState() => WalkThroughScreenState();
 }
+bool isloading=false;
 ApiAcceptence _apiAcceptence=ApiAcceptence();
 class WalkThroughScreenState extends State<WalkThroughScreen> {
   
@@ -28,13 +29,18 @@ class WalkThroughScreenState extends State<WalkThroughScreen> {
   check() async {
     _appVersion.getAppVersion().then((value) async {
       if(value?.version!=app_veriosn){
+        setState(() {
+          isloading=false;
+        });
          Navigator.pushAndRemoveUntil(context,
           MaterialPageRoute(builder: (context) {
         return EndVersion( url:value?.url,);
       }), (route) => false);
          
       }else{
-        
+        setState(() {
+          isloading=false;
+        });
     final prefs = await SharedPreferences.getInstance();
     final key = 'api_token';
     final token_User = prefs.get(key);
@@ -184,7 +190,7 @@ class WalkThroughScreenState extends State<WalkThroughScreen> {
                     },
                     child: Container(
                       decoration: BoxDecoration(
-                          shape: BoxShape.circle, color: Color(Colorbutton)),
+                          shape: BoxShape.circle, color: Colorbutton),
                       padding: EdgeInsets.all(12),
                       child: Icon(Icons.arrow_forward, color: Colors.white),
                     ),
@@ -197,6 +203,9 @@ class WalkThroughScreenState extends State<WalkThroughScreen> {
               right: 0,
               child: TextButton(
                 onPressed: () {
+                  setState(() {
+                    isloading=true;
+                  });
                   check();
 
                   // Navigator.pushAndRemoveUntil(context,
@@ -204,11 +213,13 @@ class WalkThroughScreenState extends State<WalkThroughScreen> {
                   //   return login();
                   // }), (route) => false);
                 },
-                child: Text(
+                child: 
+                !isloading?
+                Text(
                   'Skip',
                   style: TextStyle(
-                      color: Color(Colorbutton), fontWeight: FontWeight.bold),
-                ),
+                      color: Colorbutton, fontWeight: FontWeight.bold),
+                ):CircularProgressIndicator(),
               ),
             ),
           ],

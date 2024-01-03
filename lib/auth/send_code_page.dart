@@ -105,14 +105,14 @@ class _send_code_pageState extends State<send_code_page> {
     double hi = MediaQuery.of(context).size.height;
     return Scaffold(
         body: ColorfulSafeArea(
-      color: Color(Colorbutton),
+      color: Colorbutton,
       child: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerRight,
             end: Alignment.centerLeft,
             colors: [
-              Color(Colorbutton),
+              Colorbutton,
               Color(0xFF9573ec),
             ],
           ),

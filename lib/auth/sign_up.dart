@@ -114,7 +114,7 @@ class _sgin_upState extends State<sgin_up> {
           child: Container(
             height: hi,
             width: wi,
-            padding: EdgeInsets.all(8),
+            padding: EdgeInsets.all(15),
             child: SingleChildScrollView(
               child: Column(
                 children: [
@@ -405,7 +405,7 @@ class _sgin_upState extends State<sgin_up> {
                   Row(
                     children: [
                       Checkbox(
-                        activeColor: Color(Colorbutton),
+                        activeColor: Colorbutton,
                         value: istrue,
                         onChanged: (value) {
                           setState(() {
@@ -422,7 +422,7 @@ class _sgin_upState extends State<sgin_up> {
                           child: Text(
                             'Terms and Conditions'.tr,
                             style: TextStyle(
-                                color: Color(Colorbutton),
+                                color: Colorbutton,
                                 fontWeight: FontWeight.bold),
                           ))
                     ],
@@ -574,7 +574,7 @@ class _sgin_upState extends State<sgin_up> {
                   borderSide: BorderSide(color: Color(0xff34196b))),
               focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(8),
-                  borderSide: BorderSide(color: Color(ColorTextField))),
+                  borderSide: BorderSide(color: ColorTextField!)),
               hintText: Title,
               hintStyle:
                   TextStyle(color: Color(0xff8c9289), fontFamily: 'Cobe'),
